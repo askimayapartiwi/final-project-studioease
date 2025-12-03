@@ -5,9 +5,9 @@
 - **Anggota & Jobdesk :**
   | Nama Anggota      | Tugas / Jobdesk            |
   |-------------------|----------------------------|
-  | Aldi Darmawan     | Requirement Gathering, SRS |
-  | Surah Annisa      | Design (UML, UI)           |
-  | Deni Khairul Anam | Implementasi Backend       |
+  | Amelia Yuni       | Requirement Gathering, SRS |
+  | Aski Maya Partiwi | Design (UML, UI)           |
+  | Putra Dwi Pratama | Implementasi Backend       |
 
 ## Deskripsi Singkat Proyek
 Sistem ini dibuat berdasarkan permintaan dari klien Kelompok 4 dengan tujuan untuk menyelesaikan permasalahan:  
