@@ -44,4 +44,4 @@ Berikut versi ringkasnya:
 ![Home Page](https://github.com/askimayapartiwi/final-project-studioease/blob/main/assets/Screenshot%20(467).png)
 
 ## 🛠️ Admin Dashboard
-![Demo](https://raw.githubusercontent.com/denikhairulanam/InKos/main/FotoDemo/Screenshot%202025-12-01%20205813.png)
+![Demo](https://github.com/askimayapartiwi/final-project-studioease/blob/main/assets/Screenshot%20(468).png)
