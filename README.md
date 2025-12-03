@@ -41,7 +41,7 @@ Berikut versi ringkasnya:
 ---
 
 ## 🏠 Home Page
-![Home Page](https://raw.githubusercontent.com/denikhairulanam/InKos/main/FotoDemo/Screenshot%202025-12-01%20205554.png)
+![Home Page](https://github.com/askimayapartiwi/final-project-studioease/blob/main/assets/Screenshot%20(467).png)
 
 ## 🛠️ Admin Dashboard
 ![Demo](https://raw.githubusercontent.com/denikhairulanam/InKos/main/FotoDemo/Screenshot%202025-12-01%20205813.png)
