@@ -1,5 +1,7 @@
 # 🚀 Final Project RPL — StudioEase
 
+<p align="center"> <img src="https://via.placeholder.com/800x400/667eea/ffffff?text=StudioEase+Sistem+Pemesanan+Jasa+Foto" alt="StudioEase Banner" width="100%"> </p> <p align="center"> <img alt="StudioEase" src="https://img.shields.io/badge/StudioEase-Sistem%20Pemesanan%20Foto-blue" /> <img alt="PHP" src="https://img.shields.io/badge/PHP-8.2+-777BB4" /> <img alt="MySQL" src="https://img.shields.io/badge/MySQL-8.0+-4479A1" /> <img alt="Frontend" src="https://img.shields.io/badge/HTML5%2FCSS3-Frontend-E34F26" /> <img alt="License" src="https://img.shields.io/badge/License-MIT-green" /> </p>
+
 ## 👥 Identitas Kelompok
 
 **Nama Kelompok:** Kelompok 4 - 5C Sistem Informasi  
@@ -40,53 +42,72 @@
 
 ## 🛠 Teknologi yang Digunakan
 
-### **Backend:**
-- **PHP Native** - Bahasa pemrograman utama
-- **MySQL** - Database management system
-- **PDO** - Database connection dengan prepared statements
-- **Sessions** - Manajemen autentikasi dan authorization
+### Backend
+- **PHP 8.1.10 (Native)** – Mengelola logika aplikasi, proses pemesanan, autentikasi, dan pengolahan data.
+- **MySQL 8.0.30** – Database utama untuk menyimpan data user, pemesanan, jadwal, dan pembayaran.
+- **PDO (PHP Data Objects)** – Digunakan untuk koneksi database yang lebih aman dengan prepared statements.
+- **PHP Sessions** – Menangani autentikasi login dan pembatasan hak akses antara admin dan customer.
 
-### **Frontend:**
-- **HTML5** - Struktur halaman web
-- **CSS3** - Styling dengan custom design
-- **JavaScript (Vanilla)** - Interaktivitas client-side
-- **Font Awesome 6** - Icon library
-- **Responsive Design** - Mobile-friendly interface
+### Frontend
+- **HTML5** – Struktur halaman antarmuka.
+- **CSS3 (Custom CSS)** – Styling tampilan tanpa framework.
+- **JavaScript (Vanilla)** – Interaktivitas dasar di sisi client.
+- **Font Awesome 6** – Library ikon untuk mendukung tampilan UI.
 
-### **Security Features:**
-- **SQL Injection Prevention** - Menggunakan prepared statements PDO
-- **XSS Protection** - Input sanitization dengan htmlspecialchars()
-- **Password Hashing** - Bcrypt password encryption
-- **Session Management** - Secure session handling
-- **File Upload Security** - Validasi type, size, dan content
-- **CSRF Protection** - Form submission validation
-
+### Keamanan
+- **Prepared Statements (PDO)** – Perlindungan dari SQL Injection.
+- **Input Sanitization** – Menggunakan `htmlspecialchars()` untuk mencegah XSS.
+- **Password Hashing** – Menggunakan `password_hash()` dan `password_verify()` untuk keamanan login.
+- **Session Validation** – Memastikan hanya user yang memiliki session valid dapat mengakses halaman tertentu.
+- **File Upload Validation** – Membatasi jenis file, ukuran file, dan memvalidasi konten upload.
 ---
 
 ## 🚀 Cara Menjalankan Aplikasi
 
-### **Cara Instalasi:**
+### 1. Cara Instalasi
 
-1. **Download dan Extract Project:**
-   ```bash
-   # Clone atau download project ke folder htdocs (XAMPP) atau www (Laragon)
-   # Contoh: C:\xampp\htdocs\studioease\
-   ```
+1. Download atau Clone Project  
+Unduh project StudioEase atau clone melalui GitHub, kemudian pindahkan folder aplikasi ke direktori web server lokal, seperti:
 
-2. **Setup Database:**
-   - Buka phpMyAdmin (`http://localhost/phpmyadmin`)
-   - Buat database baru dengan nama `studioease`
-   - Database akan otomatis terbuat saat pertama kali diakses
+C:\xampp\htdocs\studioease\  
+atau  
+C:\laragon\www\studioease\
 
-3. **Konfigurasi Database:**
-   - Buka file `includes/config.php`
-   - Sesuaikan konfigurasi database jika diperlukan:
-   ```php
-   $host = 'localhost';
-   $dbname = 'studioease';
-   $username = 'root';
-   $password = ''; // Kosong untuk Laragon default
-   ```
+2. Persiapan Environment  
+Sebelum menjalankan aplikasi, pastikan perangkat lunak berikut sudah terpasang dan berjalan dengan baik:
+
+- XAMPP atau Laragon  
+- PHP versi 8.2 atau lebih baru  
+- MySQL versi 8.0 atau lebih baru  
+- Web browser seperti Google Chrome atau Mozilla Firefox  
+
+Setup Database  
+Akses phpMyAdmin melalui browser dengan membuka alamat:
+
+http://localhost/phpmyadmin
+
+Buat database baru dengan nama:
+
+studioease
+
+Import file database bernama studioease.sql yang disediakan dalam folder project.  
+Pada aplikasi StudioEase, database tidak dibuat otomatis oleh sistem sehingga proses import wajib dilakukan sebelum aplikasi dijalankan.
+
+---
+
+### 2. Cara Konfigurasi
+
+1. Buka file konfigurasi database yang berada pada direktori:
+
+includes/config.php
+
+2. Sesuaikan pengaturan berikut dengan environment yang Anda gunakan:
+
+```php
+$host = 'localhost';
+$dbname = 'studioease';
+$username = 'root';
+$password = ''; // Default untuk XAMPP dan Laragon
 
 ### **Cara Menjalankan Project:**
 
@@ -139,7 +160,13 @@
 - ✅ Filter Data Berdasarkan Status
 
 ---
+---
 
+## 🔗 Link Deployment
+
+* **Website WeddingLink:** [http://studioease.wuaze.com/](http://studioease.wuaze.com/)
+* **Repository GitHub:** [https://github.com/askimayapartiwi/final-project-studioease](https://github.com/askimayapartiwi/final-project-studioease)
+* **Demo Video:** [Link YouTube Demo](https://youtu.be/IoTgQHpKeKY?si=oki_KbvHfjIHZJzp)
 ---
 
 ## 🖼️ Screenshot Halaman Utama
@@ -200,12 +227,47 @@
 6. Monitor statistics di dashboard utama
 
 ---
+### **Troubleshooting:**
 
-## 🔗 Link Deployment
+#### **Common Issues:**
 
-* **Website WeddingLink:** [http://studioease.wuaze.com/](http://studioease.wuaze.com/)
-* **Repository GitHub:** [https://github.com/askimayapartiwi/final-project-studioease](https://github.com/askimayapartiwi/final-project-studioease)
-* **Demo Video:** [Link YouTube Demo](https://youtu.be/IoTgQHpKeKY?si=oki_KbvHfjIHZJzp)
+1. **Database Connection Error:**
+   - Pastikan MySQL sedang running
+   - Cek konfigurasi di `includes/config.php`
+   - Pastikan database `studioease` sudah dibuat
+
+2. **File Upload Error:**
+   - Pastikan folder `uploads/bukti-transfer/` ada dan writable
+   - Cek ukuran file (maksimal 2MB)
+   - Format file harus JPG, PNG, atau PDF
+
+3. **Session Error:**
+   - Pastikan tidak ada output sebelum session_start()
+   - Cek browser cookies settings
+
+4. **Page Not Found:**
+   - Pastikan menggunakan local server (XAMPP/Laragon)
+   - Cek file structure dan naming
+
+#### **Debug Mode:**
+Tambahkan kode berikut di `config.php` untuk debugging:
+```php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+```
+---
+
+## 📚 Keterangan Tugas
+
+Project ini dibuat untuk memenuhi Tugas Final Project Mata Kuliah Rekayasa Perangkat Lunak
+
+Dosen Pengampu:
+
+* Nama: Dila Nurlaila, M.Kom.
+* Mata Kuliah: Rekayasa Perangkat Lunak
+* Program Studi: Sistem Informasi
+* Universitas: UIN STS Jambi
+
 ---
 
 ### **Scope Project yang Dikembangkan:**
@@ -234,8 +296,6 @@
 ## 📄 License
 
 **© 2025 StudioEase - Developed by Kelompok 4, 5C Sistem Informasi UIN Sulthan Thaha Saifuddin Jambi**
-
-*Project ini dikembangkan untuk tujuan edukasi dan memenuhi tugas akhir mata kuliah Rekayasa Perangkat Lunak.*
 
 ---
 
