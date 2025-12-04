@@ -156,7 +156,8 @@
 ## 🖼️ Screenshot Halaman Utama
 
 ### **Halaman Homepage:**
-https://github.com/askimayapartiwi/final-project-studioease/commit/d363d3bf6b7e64c08627fb720125f04fd4b93016#diff-8473838e0a8997f4f29e7ba684eda276d65fde719644a8c789d936ed0ab4b91b)
+![Home Page](https://github.com/askimayapartiwi/final-project-studioease/blob/main/assets/Screenshot%20(467).png)
+
 
 ### **Dashboard Admin:**
 ![Dashboard Admin](https://via.placeholder.com/800x400/764ba2/ffffff?text=Admin+Dashboard)
