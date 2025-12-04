@@ -1,6 +1,6 @@
 # 🚀 Final Project RPL — StudioEase
 
-<p align="center"> <img src="https://via.placeholder.com/800x400/667eea/ffffff?text=StudioEase+Sistem+Pemesanan+Jasa+Foto" alt="StudioEase Banner" width="100%"> </p> <p align="center"> <img alt="StudioEase" src="https://img.shields.io/badge/StudioEase-Sistem%20Pemesanan%20Foto-blue" /> <img alt="PHP" src="https://img.shields.io/badge/PHP-8.2+-777BB4" /> <img alt="MySQL" src="https://img.shields.io/badge/MySQL-8.0+-4479A1" /> <img alt="Frontend" src="https://img.shields.io/badge/HTML5%2FCSS3-Frontend-E34F26" /> <img alt="License" src="https://img.shields.io/badge/License-MIT-green" /> </p>
+</p> <p align="center"> <img alt="StudioEase" src="https://img.shields.io/badge/StudioEase-Sistem%20Pemesanan%20Foto-blue" /> <img alt="PHP" src="https://img.shields.io/badge/PHP-8.1+-777BB4" /> <img alt="MySQL" src="https://img.shields.io/badge/MySQL-8.0+-4479A1" /> <img alt="Frontend" src="https://img.shields.io/badge/HTML5%2FCSS3-Frontend-E34F26" /> <img alt="License" src="https://img.shields.io/badge/License-MIT-green" /> </p>
 
 ## 👥 Identitas Kelompok
 
@@ -65,15 +65,14 @@
 ## 🚀 Cara Menjalankan Aplikasi
 
 ### 1. Cara Instalasi
-
-1. Download atau Clone Project  
+1.**Download atau Clone Project**  
 Unduh project StudioEase atau clone melalui GitHub, kemudian pindahkan folder aplikasi ke direktori web server lokal, seperti:
 
 C:\xampp\htdocs\studioease\  
 atau  
 C:\laragon\www\studioease\
 
-2. Persiapan Environment  
+2.**Persiapan Environment**  
 Sebelum menjalankan aplikasi, pastikan perangkat lunak berikut sudah terpasang dan berjalan dengan baik:
 
 - XAMPP atau Laragon  
@@ -81,12 +80,12 @@ Sebelum menjalankan aplikasi, pastikan perangkat lunak berikut sudah terpasang d
 - MySQL versi 8.0 atau lebih baru  
 - Web browser seperti Google Chrome atau Mozilla Firefox  
 
-Setup Database  
+3.**Setup Database**  
 Akses phpMyAdmin melalui browser dengan membuka alamat:
 
 http://localhost/phpmyadmin
 
-Buat database baru dengan nama:
+4.**Buat database baru dengan nama:**
 
 studioease
 
@@ -97,11 +96,11 @@ Pada aplikasi StudioEase, database tidak dibuat otomatis oleh sistem sehingga pr
 
 ### 2. Cara Konfigurasi
 
-1. Buka file konfigurasi database yang berada pada direktori:
+1. **Buka file konfigurasi database yang berada pada direktori:**
 
 includes/config.php
 
-2. Sesuaikan pengaturan berikut dengan environment yang Anda gunakan:
+2. **Sesuaikan pengaturan berikut dengan environment yang Anda gunakan:**
 
 ```php
 $host = 'localhost';
