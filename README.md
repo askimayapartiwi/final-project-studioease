@@ -1,6 +1,14 @@
 # 🚀 Final Project RPL — StudioEase
 
-</p> <p align="center"> <img alt="StudioEase" src="https://img.shields.io/badge/StudioEase-Sistem%20Pemesanan%20Foto-blue" /> <img alt="PHP" src="https://img.shields.io/badge/PHP-8.1+-777BB4" /> <img alt="MySQL" src="https://img.shields.io/badge/MySQL-8.0+-4479A1" /> <img alt="Frontend" src="https://img.shields.io/badge/HTML5%2FCSS3-Frontend-E34F26" /> <img alt="License" src="https://img.shields.io/badge/License-MIT-green" /> </p>
+<p align="center">
+  <img alt="StudioEase" src="https://img.shields.io/badge/StudioEase-Sistem%20Pemesanan%20Foto-blue" />
+  <img alt="PHP" src="https://img.shields.io/badge/PHP-8.1+-777BB4" />
+  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-8.0+-4479A1" />
+  <img alt="Frontend" src="https://img.shields.io/badge/HTML5%2FCSS3-Frontend-E34F26" />
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-green" />
+</p>
+
+---
 
 ## 👥 Identitas Kelompok
 
@@ -10,14 +18,14 @@
 | Nama Anggota | NIM | Tugas / Jobdesk |
 |--------------|-----|-----------------|
 | Yuni Amelia | 701230010 | Requirement Analysis, Documentation |
-| Aski Maya Partiwi | 701230027 | Saya bertanggung jawab dalam pengembangan website StudioEase menggunakan PHP Native, melakukan deployment ke hosting melalui infinityfree, mengunggah project ke GitHub sebagai repository resmi, serta melakukan demo aplikasi pada fitur-fitur admin. |
+| Aski Maya Partiwi | 701230027 | Pengembangan Website, Deployment, GitHub Repository, Demo Aplikasi |
 | Putra Dwi Pratama Lubis | 701230084 | Backend Development, Database Design |
 
 ---
 
 ## 📱 Deskripsi Singkat Aplikasi
 
-**StudioEase** adalah sistem pemesanan jasa foto studio dan outdoor berbasis web yang memudahkan customer dalam memesan jasa foto dan membantu admin dalam mengelola proses bisnis studio foto secara digital. Aplikasi ini menghubungkan dua jenis pengguna utama: customer (pengguna jasa foto) dan admin (pengelola studio).
+**StudioEase** adalah sistem pemesanan jasa foto studio dan outdoor berbasis web yang memudahkan customer dalam memesan jasa foto dan membantu admin dalam mengelola proses bisnis studio foto secara digital.
 
 ---
 
@@ -42,77 +50,73 @@
 
 ## 🛠 Teknologi yang Digunakan
 
-### Backend
-- **PHP 8.1.10 (Native)** – Mengelola logika aplikasi, proses pemesanan, autentikasi, dan pengolahan data.
-- **MySQL 8.0.30** – Database utama untuk menyimpan data user, pemesanan, jadwal, dan pembayaran.
-- **PDO (PHP Data Objects)** – Digunakan untuk koneksi database yang lebih aman dengan prepared statements.
-- **PHP Sessions** – Menangani autentikasi login dan pembatasan hak akses antara admin dan customer.
+### **Backend:**
+- ⚙️ **PHP 8.1.10 (Native)** – Bahasa pemrograman utama untuk logika bisnis, pemesanan, dan autentikasi
+- 🗄️ **MySQL 8.0.30** – Database utama untuk menyimpan data pengguna, pemesanan, dan jadwal
+- 🔗 **PDO (PHP Data Objects)** – Koneksi database aman dengan prepared statements
+- 🔐 **PHP Sessions** – Manajemen autentikasi dan pembatasan hak akses (admin & customer)
 
-### Frontend
-- **HTML5** – Struktur halaman antarmuka.
-- **CSS3 (Custom CSS)** – Styling tampilan tanpa framework.
-- **JavaScript (Vanilla)** – Interaktivitas dasar di sisi client.
-- **Font Awesome 6** – Library ikon untuk mendukung tampilan UI.
+### **Frontend:**
+- 🏗️ **HTML5** – Struktur dasar halaman website
+- 🎨 **CSS3 (Custom)** – Styling murni tanpa framework
+- ⚡ **JavaScript (Vanilla)** – Interaksi client-side
+- ✨ **Font Awesome 6** – Koleksi ikon untuk antarmuka
+- 📱 **Responsive Design** – Tampilan optimal di semua perangkat
 
-### Keamanan
-- **Prepared Statements (PDO)** – Perlindungan dari SQL Injection.
-- **Input Sanitization** – Menggunakan `htmlspecialchars()` untuk mencegah XSS.
-- **Password Hashing** – Menggunakan `password_hash()` dan `password_verify()` untuk keamanan login.
-- **Session Validation** – Memastikan hanya user yang memiliki session valid dapat mengakses halaman tertentu.
-- **File Upload Validation** – Membatasi jenis file, ukuran file, dan memvalidasi konten upload.
+### 🔒 **Fitur Keamanan:**
+- 🛡️ **SQL Injection Prevention** – Prepared statements via PDO
+- 🚫 **XSS Protection** – Input sanitization dengan `htmlspecialchars()`
+- 🔑 **Password Hashing** – Enkripsi password menggunakan `password_hash()` & `password_verify()`
+- 📋 **Session Validation** – Validasi sesi untuk akses halaman terproteksi
+- 📎 **File Upload Validation** – Validasi tipe, ukuran, dan konten file bukti pembayaran
+- 👥 **Role-Based Access Control** – Pembatasan akses berdasarkan peran (admin/customer)
+
 ---
 
 ## 🚀 Cara Menjalankan Aplikasi
 
-### Cara Instalasi
+### **Cara Instalasi**
 
-1.Download atau Clone Project  
-Unduh project StudioEase atau clone melalui GitHub, kemudian pindahkan folder aplikasi ke direktori web server lokal Anda:
+1. **Download atau Clone Project**  
+   Unduh project StudioEase atau clone melalui GitHub:
+   ```
+   C:\xampp\htdocs\studioease\
+   ```
+   atau
+   ```
+   C:\laragon\www\studioease\
+   ```
 
-C:\xampp\htdocs\studioease\
+2. **Persiapan Environment**  
+   Pastikan perangkat berikut sudah terpasang:
+   - XAMPP atau Laragon
+   - PHP 8.1+ 
+   - MySQL 8.0+
+   - Web browser (Chrome, Firefox, Edge)
 
-atau
-
-C:\laragon\www\studioease\
-
-2.Persiapan Environment  
-Pastikan perangkat berikut sudah terpasang dan berjalan normal:
-
-- XAMPP atau Laragon  
-- PHP 8.2 atau lebih baru  
-- MySQL 8.0 atau lebih baru  
-- Web browser (Chrome, Firefox, Edge)
-
-3.Setup Database  
-Buka phpMyAdmin melalui browser:
-
-http://localhost/phpmyadmin
-
-4.Buat database baru dengan nama:
-
-studioease
-
-5.Import file SQL berikut:
-
-studioease.sql
-
-Catatan: Pada aplikasi StudioEase, database **tidak dibuat otomatis**, sehingga proses import **wajib dilakukan** sebelum menjalankan aplikasi.
+3. **Setup Database**  
+   Buka phpMyAdmin: `http://localhost/phpmyadmin`
+   - Buat database baru: `studioease`
+   - Import file SQL: `studioease.sql`
 
 ---
 
-### Cara Konfigurasi
+### **Cara Konfigurasi**
 
-1.Buka file konfigurasi database pada lokasi berikut:
+1. Buka file konfigurasi:
+   ```
+   includes/config.php
+   ```
 
-includes/config.php
+2. Sesuaikan konfigurasi:
+   ```php
+   $host = 'localhost';
+   $dbname = 'studioease';
+   $username = 'root';
+   $password = ''; // Default untuk XAMPP & Laragon
+   ```
 
-2.Sesuaikan konfigurasi dengan environment lokal Anda:
-
-```php
-$host = 'localhost';
-$dbname = 'studioease';
-$username = 'root';
-$password = ''; // Default untuk XAMPP & Laragon
+---
 
 ### **Cara Menjalankan Project:**
 
@@ -123,10 +127,6 @@ $password = ''; // Default untuk XAMPP & Laragon
 2. **Akses Aplikasi:**
    - Buka browser
    - Kunjungi: `http://localhost/studioease/`
-
-3. **Setup Awal:**
-   - Sistem akan otomatis membuat tabel database
-   - Data sample studio akan terbuat otomatis
 
 ---
 
@@ -165,13 +165,13 @@ $password = ''; // Default untuk XAMPP & Laragon
 - ✅ Filter Data Berdasarkan Status
 
 ---
----
 
 ## 🔗 Link Deployment
 
-* **Website WeddingLink:** [http://studioease.wuaze.com/](http://studioease.wuaze.com/)
+* **Website StudioEase:** [http://studioease.wuaze.com/](http://studioease.wuaze.com/)
 * **Repository GitHub:** [https://github.com/askimayapartiwi/final-project-studioease](https://github.com/askimayapartiwi/final-project-studioease)
 * **Demo Video:** [Link YouTube Demo](https://youtu.be/IoTgQHpKeKY?si=oki_KbvHfjIHZJzp)
+
 ---
 
 ## 🖼️ Screenshot Halaman Utama
@@ -212,6 +212,8 @@ $password = ''; // Default untuk XAMPP & Laragon
 - [ ] Invoice Generation
 - [ ] Email Notifications
 
+---
+
 ### **Petunjuk Penggunaan Khusus:**
 
 #### **Untuk Customer:**
@@ -232,6 +234,7 @@ $password = ''; // Default untuk XAMPP & Laragon
 6. Monitor statistics di dashboard utama
 
 ---
+
 ### **Troubleshooting:**
 
 #### **Common Issues:**
@@ -260,23 +263,22 @@ Tambahkan kode berikut di `config.php` untuk debugging:
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 ```
+
 ---
 
 ## 📚 Keterangan Tugas
 
-Project ini dibuat untuk memenuhi Tugas Final Project Mata Kuliah Rekayasa Perangkat Lunak
+Project ini dibuat untuk memenuhi Tugas Final Project Mata Kuliah **Rekayasa Perangkat Lunak**
 
-Dosen Pengampu:
-
-* Nama: Dila Nurlaila, M.Kom.
-* Mata Kuliah: Rekayasa Perangkat Lunak
-* Program Studi: Sistem Informasi
-* Universitas: UIN STS Jambi
+**Dosen Pengampu:**
+- **Nama:** Dila Nurlaila, M.Kom.
+- **Mata Kuliah:** Rekayasa Perangkat Lunak
+- **Program Studi:** Sistem Informasi
+- **Universitas:** UIN STS Jambi
 
 ---
 
 ### **Scope Project yang Dikembangkan:**
-
 1. ✅ Analisis kebutuhan berdasarkan SRS dokumen
 2. ✅ Perancangan sistem (ERD, Use Case Diagram)
 3. ✅ Implementasi database dengan MySQL
@@ -286,7 +288,6 @@ Dosen Pengampu:
 7. ✅ Dokumentasi sistem lengkap
 
 ### **Fitur Wajib yang Telah Diterapkan:**
-
 1. ✅ Sistem login/register multi-role (admin/customer)
 2. ✅ CRUD untuk semua entitas utama
 3. ✅ Sistem pembayaran dengan upload bukti transfer
