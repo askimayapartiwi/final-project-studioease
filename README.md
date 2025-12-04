@@ -150,19 +150,19 @@
 ## 🖼️ Screenshot Halaman Utama
 
 ### **Halaman Homepage:**
-![Home Page](assets/dashboard-admin.png)
+![Home Page](https://github.com/askimayapartiwi/final-project-studioease/blob/main/assets/homepage.png)
 
 ### **Dashboard Admin:**
-![Dashboard Admin](https://via.placeholder.com/800x400/764ba2/ffffff?text=Admin+Dashboard)
+![Dashboard Admin](https://github.com/askimayapartiwi/final-project-studioease/blob/main/assets/dashboard-admin.png)
 
 ### **Login Customer:**
-![Login Customer](https://via.placeholder.com/800x400/38a169/ffffff?text=Customer+Dashboard)
+![Login Customer](https://github.com/askimayapartiwi/final-project-studioease/blob/main/assets/login-customers.png)
 
 ### **Pesan Studio:**
-![Pesan Studio](https://via.placeholder.com/800x400/38a169/ffffff?text=Customer+Dashboard)
+![Pesan Studio](https://github.com/askimayapartiwi/final-project-studioease/blob/main/assets/pesan-studio.png)
 
 ### **Pembayaran:**
-![Pembayaran](https://via.placeholder.com/800x400/38a169/ffffff?text=Customer+Dashboard)
+![Pembayaran](https://github.com/askimayapartiwi/final-project-studioease/blob/main/assets/pembayaran.png)
 
 ---
 
