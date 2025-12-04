@@ -8,7 +8,7 @@
 | Nama Anggota | NIM | Tugas / Jobdesk |
 |--------------|-----|-----------------|
 | Yuni Amelia | 701230010 | Requirement Analysis, Documentation |
-| Aski Maya Partiwi | 701230027 | UI/UX Design, Frontend Development |
+| Aski Maya Partiwi | 701230027 | Saya bertanggung jawab dalam pengembangan website StudioEase menggunakan PHP Native, melakukan deployment ke hosting melalui infinityfree, mengunggah project ke GitHub sebagai repository resmi, serta melakukan demo aplikasi pada fitur-fitur admin. |
 | Putra Dwi Pratama Lubis | 701230084 | Backend Development, Database Design |
 
 ---
