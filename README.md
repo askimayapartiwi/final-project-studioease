@@ -1,7 +1,7 @@
 # 🚀 Final Project RPL — StudioEase
 
 <p align="center">
-  <img alt="StudioEase" src="https://img.shields.io/badge/StudioEase-Sistem%20Pemesanan%20Foto-blue" />
+  <img alt="StudioEase" src="https://img.shields.io/badge/StudioEase-Sistem%20Pemesanan%20JasaFoto-blue" />
   <img alt="PHP" src="https://img.shields.io/badge/PHP-8.1+-777BB4" />
   <img alt="MySQL" src="https://img.shields.io/badge/MySQL-8.0+-4479A1" />
   <img alt="Frontend" src="https://img.shields.io/badge/HTML5%2FCSS3-Frontend-E34F26" />
