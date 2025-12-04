@@ -18,7 +18,7 @@
 | Nama Anggota | NIM | Tugas / Jobdesk |
 |--------------|-----|-----------------|
 | Yuni Amelia | 701230010 | Requirement Analysis, Documentation |
-| Aski Maya Partiwi | 701230027 | Mengembangkan website menggunakan PHP Native, Melakukan deployment ke Infinityfree, Membuat desain tabel MySQL dan menyediakan file database.sql, Membuat video demo aplikasi untuk fitur admin,  |
+| Aski Maya Partiwi | 701230027 | Mengembangkan website menggunakan PHP Native, Melakukan deployment ke Infinityfree, Membuat desain tabel MySQL dan menyediakan file database.sql, Membuat video demo aplikasi untuk fitur admin, Melakukan push ke Github dan membuat repository  |
 | Putra Dwi Pratama Lubis | 701230084 | Backend Development, Database Design |
 
 ---
