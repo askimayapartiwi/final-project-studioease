@@ -204,7 +204,7 @@
 ## 🔗 Link Deployment
 
 * **Website WeddingLink:** [http://studioease.wuaze.com/](http://studioease.wuaze.com/)
-* **Repository GitHub:** [https://github.com/nadhifpandyas/weddinglink.git](https://github.com/nadhifpandyas/weddinglink.git)
+* **Repository GitHub:** [https://github.com/askimayapartiwi/final-project-studioease](https://github.com/askimayapartiwi/final-project-studioease)
 * **Demo Video:** [Link YouTube Demo](https://youtu.be/IoTgQHpKeKY?si=oki_KbvHfjIHZJzp)
 ---
 
