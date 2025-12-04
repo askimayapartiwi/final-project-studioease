@@ -70,12 +70,6 @@
 
 ## 🚀 Cara Menjalankan Aplikasi
 
-### **Prerequisites:**
-- XAMPP atau Laragon
-- Web Browser (Chrome, Firefox, Edge)
-- PHP 7.4 atau lebih tinggi
-- MySQL 5.7 atau lebih tinggi
-
 ### **Cara Instalasi:**
 
 1. **Download dan Extract Project:**
@@ -158,12 +152,17 @@
 ### **Halaman Homepage:**
 ![Home Page](assets/dashboard-admin.png)
 
-
 ### **Dashboard Admin:**
 ![Dashboard Admin](https://via.placeholder.com/800x400/764ba2/ffffff?text=Admin+Dashboard)
 
-### **Dashboard Customer:**
-![Dashboard Customer](https://via.placeholder.com/800x400/38a169/ffffff?text=Customer+Dashboard)
+### **Login Customer:**
+![Login Customer](https://via.placeholder.com/800x400/38a169/ffffff?text=Customer+Dashboard)
+
+### **Pesan Studio:**
+![Pesan Studio](https://via.placeholder.com/800x400/38a169/ffffff?text=Customer+Dashboard)
+
+### **Pembayaran:**
+![Pembayaran](https://via.placeholder.com/800x400/38a169/ffffff?text=Customer+Dashboard)
 
 ---
 
@@ -205,41 +204,12 @@
 5. Pantau jadwal melalui dashboard
 6. Monitor statistics di dashboard utama
 
-### **Troubleshooting:**
-
-#### **Common Issues:**
-
-1. **Database Connection Error:**
-   - Pastikan MySQL sedang running
-   - Cek konfigurasi di `includes/config.php`
-   - Pastikan database `studioease` sudah dibuat
-
-2. **File Upload Error:**
-   - Pastikan folder `uploads/bukti-transfer/` ada dan writable
-   - Cek ukuran file (maksimal 2MB)
-   - Format file harus JPG, PNG, atau PDF
-
-3. **Session Error:**
-   - Pastikan tidak ada output sebelum session_start()
-   - Cek browser cookies settings
-
-4. **Page Not Found:**
-   - Pastikan menggunakan local server (XAMPP/Laragon)
-   - Cek file structure dan naming
-
-#### **Debug Mode:**
-Tambahkan kode berikut di `config.php` untuk debugging:
-```php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-```
-
 ---
 
 ## 🔗 Link Deployment
 
-**Local Development:** `http://localhost/studioease/`  
-**Live Demo:** [Link Deployment - jika tersedia]  
+**Website StudioEase:** `[(http://studioease.wuaze.com)`  
+**Repository GitHub:** [Link Deployment - jika tersedia]  
 **Demo Video:** [Link Video Demo]
 
 ---
