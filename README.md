@@ -203,7 +203,7 @@
 
 ## 🔗 Link Deployment
 
-**Website StudioEase:** `[(http://studioease.wuaze.com/)`  
+**Website StudioEase:** [http://studioease.wuaze.com/](http://studioease.wuaze.com/) 
 **Repository GitHub:** [https://github.com/askimayapartiwi/final-project-studioease]  
 **Demo Video:** [Link Video Demo]
 
