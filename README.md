@@ -64,49 +64,55 @@
 
 ## 🚀 Cara Menjalankan Aplikasi
 
-### 1. Cara Instalasi
-1.**Download atau Clone Project**  
-Unduh project StudioEase atau clone melalui GitHub, kemudian pindahkan folder aplikasi ke direktori web server lokal, seperti:
+### Cara Instalasi
 
-C:\xampp\htdocs\studioease\  
-atau  
+1.Download atau Clone Project  
+Unduh project StudioEase atau clone melalui GitHub, kemudian pindahkan folder aplikasi ke direktori web server lokal Anda:
+
+C:\xampp\htdocs\studioease\
+
+atau
+
 C:\laragon\www\studioease\
 
-2.**Persiapan Environment**  
-Sebelum menjalankan aplikasi, pastikan perangkat lunak berikut sudah terpasang dan berjalan dengan baik:
+2.Persiapan Environment  
+Pastikan perangkat berikut sudah terpasang dan berjalan normal:
 
 - XAMPP atau Laragon  
-- PHP versi 8.2 atau lebih baru  
-- MySQL versi 8.0 atau lebih baru  
-- Web browser seperti Google Chrome atau Mozilla Firefox  
+- PHP 8.2 atau lebih baru  
+- MySQL 8.0 atau lebih baru  
+- Web browser (Chrome, Firefox, Edge)
 
-3.**Setup Database**  
-Akses phpMyAdmin melalui browser dengan membuka alamat:
+3.Setup Database  
+Buka phpMyAdmin melalui browser:
 
 http://localhost/phpmyadmin
 
-4.**Buat database baru dengan nama:**
+4.Buat database baru dengan nama:
 
 studioease
 
-Import file database bernama studioease.sql yang disediakan dalam folder project.  
-Pada aplikasi StudioEase, database tidak dibuat otomatis oleh sistem sehingga proses import wajib dilakukan sebelum aplikasi dijalankan.
+5.Import file SQL berikut:
+
+studioease.sql
+
+Catatan: Pada aplikasi StudioEase, database **tidak dibuat otomatis**, sehingga proses import **wajib dilakukan** sebelum menjalankan aplikasi.
 
 ---
 
-### 2. Cara Konfigurasi
+### Cara Konfigurasi
 
-1. **Buka file konfigurasi database yang berada pada direktori:**
+1.Buka file konfigurasi database pada lokasi berikut:
 
 includes/config.php
 
-2. **Sesuaikan pengaturan berikut dengan environment yang Anda gunakan:**
+2.Sesuaikan konfigurasi dengan environment lokal Anda:
 
 ```php
 $host = 'localhost';
 $dbname = 'studioease';
 $username = 'root';
-$password = ''; // Default untuk XAMPP dan Laragon
+$password = ''; // Default untuk XAMPP & Laragon
 
 ### **Cara Menjalankan Project:**
 
