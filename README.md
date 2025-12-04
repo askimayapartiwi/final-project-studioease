@@ -1,10 +1,5 @@
 # 🚀 Final Project RPL — StudioEase
 
-<p align="center">
-  <img src="https://via.placeholder.com/800x400/667eea/ffffff?text=StudioEase+Sistem+Pemesanan+Jasa+Foto" alt="StudioEase Banner" width="100%">
-</p>
----
-
 ## 👥 Identitas Kelompok
 
 **Nama Kelompok:** Kelompok 4 - 5C Sistem Informasi  
@@ -208,32 +203,11 @@
 
 ## 🔗 Link Deployment
 
-**Website StudioEase:** `[(http://studioease.wuaze.com)`  
-**Repository GitHub:** [Link Deployment - jika tersedia]  
+**Website StudioEase:** `[(http://studioease.wuaze.com/)`  
+**Repository GitHub:** [https://github.com/askimayapartiwi/final-project-studioease]  
 **Demo Video:** [Link Video Demo]
 
 ---
-
-## 📞 Support
-
-Untuk pertanyaan dan dukungan teknis, silakan hubungi:
-
-- **Email:** support@studioease.com
-- **Kampus:** UIN Sulthan Thaha Saifuddin Jambi
-- **Program Studi:** Sistem Informasi
-
----
-
-## 📚 Keterangan Tugas
-
-**Project ini dibuat untuk memenuhi Tugas Final Project Mata Kuliah Rekayasa Perangkat Lunak**
-
-**Dosen Pengampu:**
-- **Nama:** [Nama Dosen]
-- **Mata Kuliah:** Rekayasa Perangkat Lunak
-- **Program Studi:** Sistem Informasi
-- **Fakultas:** Sains dan Teknologi
-- **Universitas:** UIN Sulthan Thaha Saifuddin Jambi
 
 ### **Scope Project yang Dikembangkan:**
 
