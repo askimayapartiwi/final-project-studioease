@@ -203,10 +203,9 @@
 
 ## 🔗 Link Deployment
 
-**Website StudioEase:** [http://studioease.wuaze.com/](http://studioease.wuaze.com/) 
-**Repository GitHub:** [https://github.com/askimayapartiwi/final-project-studioease]  
-**Demo Video:** [Link Video Demo]
-
+* **Website WeddingLink:** [http://studioease.wuaze.com/](http://studioease.wuaze.com/)
+* **Repository GitHub:** [https://github.com/nadhifpandyas/weddinglink.git](https://github.com/nadhifpandyas/weddinglink.git)
+* **Demo Video:** [Link YouTube Demo](https://youtu.be/IoTgQHpKeKY?si=oki_KbvHfjIHZJzp)
 ---
 
 ### **Scope Project yang Dikembangkan:**
