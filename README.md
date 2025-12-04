@@ -51,25 +51,25 @@
 ## 🛠 Teknologi yang Digunakan
 
 ### **Backend:**
-- ⚙️ **PHP 8.1.10 (Native)** – Bahasa pemrograman utama untuk logika bisnis, pemesanan, dan autentikasi
-- 🗄️ **MySQL 8.0.30** – Database utama untuk menyimpan data pengguna, pemesanan, dan jadwal
-- 🔗 **PDO (PHP Data Objects)** – Koneksi database aman dengan prepared statements
-- 🔐 **PHP Sessions** – Manajemen autentikasi dan pembatasan hak akses (admin & customer)
+-  **PHP 8.1.10 (Native)** – Bahasa pemrograman utama untuk logika bisnis, pemesanan, dan autentikasi
+-  **MySQL 8.0.30** – Database utama untuk menyimpan data pengguna, pemesanan, dan jadwal
+-  **PDO (PHP Data Objects)** – Koneksi database aman dengan prepared statements
+-  **PHP Sessions** – Manajemen autentikasi dan pembatasan hak akses (admin & customer)
 
 ### **Frontend:**
-- 🏗️ **HTML5** – Struktur dasar halaman website
-- 🎨 **CSS3 (Custom)** – Styling murni tanpa framework
-- ⚡ **JavaScript (Vanilla)** – Interaksi client-side
-- ✨ **Font Awesome 6** – Koleksi ikon untuk antarmuka
-- 📱 **Responsive Design** – Tampilan optimal di semua perangkat
+-  **HTML5** – Struktur dasar halaman website
+-  **CSS3 (Custom)** – Styling murni tanpa framework
+-  **JavaScript (Vanilla)** – Interaksi client-side
+-  **Font Awesome 6** – Koleksi ikon untuk antarmuka
+-  **Responsive Design** – Tampilan optimal di semua perangkat
 
-### 🔒 **Fitur Keamanan:**
-- 🛡️ **SQL Injection Prevention** – Prepared statements via PDO
-- 🚫 **XSS Protection** – Input sanitization dengan `htmlspecialchars()`
-- 🔑 **Password Hashing** – Enkripsi password menggunakan `password_hash()` & `password_verify()`
-- 📋 **Session Validation** – Validasi sesi untuk akses halaman terproteksi
-- 📎 **File Upload Validation** – Validasi tipe, ukuran, dan konten file bukti pembayaran
-- 👥 **Role-Based Access Control** – Pembatasan akses berdasarkan peran (admin/customer)
+###  **Security:**
+-  **SQL Injection Prevention** – Prepared statements via PDO
+-  **XSS Protection** – Input sanitization dengan `htmlspecialchars()`
+-  **Password Hashing** – Enkripsi password menggunakan `password_hash()` & `password_verify()`
+-  **Session Validation** – Validasi sesi untuk akses halaman terproteksi
+-  **File Upload Validation** – Validasi tipe, ukuran, dan konten file bukti pembayaran
+-  **Role-Based Access Control** – Pembatasan akses berdasarkan peran (admin/customer)
 
 ---
 
