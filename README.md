@@ -170,7 +170,7 @@
 
 * **Website StudioEase:** [http://studioease.wuaze.com/](http://studioease.wuaze.com/)
 * **Repository GitHub:** [https://github.com/askimayapartiwi/final-project-studioease](https://github.com/askimayapartiwi/final-project-studioease)
-* **Demo Video:** [Link YouTube Demo](https://youtu.be/IoTgQHpKeKY?si=oki_KbvHfjIHZJzp)
+* **Demo Video:** [Link YouTube Demo](https://www.youtube.com/watch?feature=shared&v=vxL4UP8K-ts)
 
 ---
 
