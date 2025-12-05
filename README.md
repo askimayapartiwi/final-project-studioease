@@ -18,7 +18,7 @@
 | Nama Anggota | NIM | Tugas / Jobdesk |
 |--------------|-----|-----------------|
 | Yuni Amelia | 701230010 | Merevisi dokumen SRS, Membuat diagram arsitektur sistem monolotik, Membuat design ui, Menyusun dan melakukan User Acceptance Testing dengan kelompok lain, Membuat video demo aplikasi Fitur Customer|
-| Aski Maya Partiwi | 701230027 | Mengembangkan website menggunakan PHP Native, Melakukan deployment ke Infinityfree, Membuat desain tabel MySQL dan menyediakan file database.sql, Membuat video demo aplikasi untuk fitur admin, Melakukan push ke Github dan membuat repository. |
+| Aski Maya Partiwi | 701230027 | Mengembangkan website menggunakan PHP Native, Melakukan deployment hosting ke Infinityfree, Membuat desain tabel MySQL dan menyediakan file database.sql, Membuat video demo aplikasi untuk fitur admin, Melakukan push ke Github dan membuat repository. |
 | Putra Dwi Pratama Lubis | 701230084 | Membuat design phase, Membuat Slide Presentasi, Menulis README.md yang menjelaskan tentang aplikasi, Menyusun Requirement analysis |
 
 ---
